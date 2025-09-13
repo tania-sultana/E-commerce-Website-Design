@@ -16,6 +16,7 @@
 </div>
     <nav id="menu" class="hidden">
         <ul class="nav-upper flex-space-around">
+             <li class="nav-list"><a href="index.html" class="nav-link">Home</a></li>
             <li class="nav-list"><a href="register.html" class="nav-link">Register</a></li>
             <li class="nav-list"><a href="login.html" class="nav-link">Login</a></li>
             <li class="nav-list"><a href="/index.html" class="nav-link">Logout</a></li>
@@ -30,7 +31,39 @@
     </nav>
 <!-- navbar end here -->
 <main>
-    <h2>Cart Page</h2>
+    <div class="cart">
+    <!-- <div class="cart flex-center"> -->
+        <div class="cart-items">
+            <div class="cart-items-heading card">
+                <h2 class="cart-heading">Shopping Cart [2 items]</h2>
+                <div class="cart-actions flex-space-around">
+                    <label for="select">
+                    <input type="checkbox" name="select" id="select">
+                    Select all items
+                    </label>
+                    <i class="fa-solid fa-trash"></i>
+                    <button class="btn">SHOP MORE</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <label for="check"></label>
+            <input type="checkbox" name="check" id="check">
+            <img src="images/mac.jpg" alt="">
+            <div class="product-cart-details">
+                <h3 class="product-name">Macbook Air 4</h3>
+                <h4 class="product-price">Price: $212</h4>
+                <h4 class="product-shipping">Free shipping</h4>
+            </div>
+            <div class="product-cart-action">
+                <i class="fa-solid fa-trash"></i>
+                <button class="btn">+</button>
+                <button class="btn">3</button>
+                <button class="btn">-</button>
+            </div>
+            
+        </div>
+    </div>
 </main>
 <!-- footer start here -->
  <footer class="footer flex-space-around">
